@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CrystalsCollector!</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <!-- <link rel="resetsheet" href="assets/css/reset.css"> -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+
+<body>
+<div class="container">
+  <div>
+    <div class="row">
+<!-- // header text -->
+      <h1 class="col-md-4">CrystalsCollector!</h1></div>
+    </div>
+     <div class="row"> 
+<!-- // directions section -->
+      <p class="col-md-6" id="directions-text">
+          You will be given a number at the start of the game.
+          <br><br>
+          There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.
+          <br><br>
+          You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.
+          <br><br>
+          The value of each crystal is hidden from you until you click on it.
+          <br><br>
+          Each time when the game starts, the game will change the values of each crystal.
+      </p>
+     </div>
+<!-- // row with computer generated number and wins/losses -->
+     <div class="row" id="scores">
+      <div class="col-md-3" id="random-number"></div>
+        <div class="col-md-2" id="wins-and-losses">
+        <p id="game-result"></p>
+        <p id="wins-text">Wins: 0 </p>
+        <p id="losses-text">Losses: 0</p>
+        </div>
+    </div>
+<!-- // all image buttons used for values -->
+    <div class="row" id="images">
+      <img src="https://p1.hiclipart.com/preview/65/571/799/sonic-the-hedgehog-icons-emerald-yellow-yellow-diamond.jpg" alt="yellow-diamond" id="yellow-diamond" class="img-thumbnail">
+      <img src="https://p1.hiclipart.com/preview/654/591/728/sonic-the-hedgehog-icons-emerald-green-green-diamond.jpg" alt="green-diamond" id="green-diamond" class="img-thumbnail">
+      <img src="https://p1.hiclipart.com/preview/868/684/983/sonic-the-hedgehog-icons-emerald-purple-purple-diamond.jpg" alt="purple-diamond" id="purple-diamond" class="img-thumbnail">
+      <img src="https://p1.hiclipart.com/preview/934/563/602/sonic-the-hedgehog-icons-emerald-blue-blue-diamond.jpg" alt="blue-diamond" id="blue-diamond" class="img-thumbnail">
+    </div>
+<!-- // users total score being added up in this section -->
+    <div>
+    <p class= "col-md-3" id="total-score-text">Your total score is:</p></div>
+    <div class="col-md-3" id="total-score">0</div>
+  </div>
+  <script src="./assets/javascript/games.js"></script>
+</div>
+</body>
+
+</html>

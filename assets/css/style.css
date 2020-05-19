@@ -1,0 +1,51 @@
+body {
+  background-color: aquamarine;
+  font-family: "Times New Roman", Times, serif;
+  padding: 10px;
+}
+
+#directions-text {
+  background-color: burlywood;
+  color: green;
+}
+
+h1 {
+  background-color: orange;
+  color: white;
+}
+
+#total-score-text {
+  background-color: teal;
+  color: white;
+}
+
+#total-score {
+  background-color: teal;
+  color: white;
+  font-size: 50px;
+  height: 120px;
+}
+
+#random-number {
+  background-color: green;
+  color: indigo;
+  margin-right: 10px;
+  font-size: xx-large;
+}
+
+#wins-and-losses {
+  background-color: turquoise;
+}
+
+#scores {
+  margin-bottom: 20px;
+}
+
+.img-thumbnail {
+  height: 100px;
+  width: 100px;
+}
+
+#images {
+  margin-bottom: 10px;
+}
